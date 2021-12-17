@@ -63,7 +63,7 @@ To prep for our project, we cleaned that data by dropping variables we didn't ne
 ![image](https://user-images.githubusercontent.com/75323832/146481870-97096cb1-c8c0-4408-ba5d-117bf3a63ab3.png)
 
 
-# Comclusions
+# Conclusions
 
 # Run Notebook In Google Collab
 
