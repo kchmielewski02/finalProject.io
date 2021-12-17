@@ -4,7 +4,14 @@ This Repo is the final project for our Data Science class at Lafayette College. 
 # Business Understanding
 
 # Data Understanding
+<div class="datatable-begin"></div>
 
+| Attribute | Data Type | Description |
+| --- | --- | --- | --- |
+| yearid | Ordinal | year of season |
+
+
+<div class="datatable-end"></div>
 # Data Preperation
 
 # Exploratory Data Analysis
