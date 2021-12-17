@@ -9,6 +9,7 @@ This Repo is the final project for our Data Science class at Lafayette College. 
 | Attribute | Data Type | Description |
 | --- | --- | --- | --- |
 | yearid | Ordinal | year of season |
+|
 
 
 <div class="datatable-end"></div>
