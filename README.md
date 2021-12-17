@@ -49,6 +49,16 @@ https://www.baseball-reference.com
 To prep for our project, we cleaned that data by dropping variables we didn't need such as some advanced statistics like OPS+ and other irrlevant statistics like CS. All in all we ended up with 918 observations with 17 variables.
 
 # Exploratory Data Analysis
+       Summary Statistics:
+	    era_t	  teamOPS	    win_t
+count	918.00	918.0000	918.0000
+mean	4.2050	0.738863	79.943355
+std	0.556509	0.041072	11.840224
+min	2.910000	0.627000	43.000000
+25%	3.800000	0.710000	71.250000
+50%	4.170000	0.737000	80.000000
+75%	4.580000	0.766000	89.000000
+max	6.380000	0.851000	116.00000
 
 # Machine Learning Model
 
