@@ -12,3 +12,9 @@ This Repo is the final project for our Data Science class at Lafayette College. 
 # Machine Learning Model
 
 # Comclusions
+
+# Run Notebook In Google Collab
+
+# Link to Video
+
+
