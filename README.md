@@ -50,15 +50,8 @@ To prep for our project, we cleaned that data by dropping variables we didn't ne
 
 # Exploratory Data Analysis
 
-era_t	teamOPS	win_t
-count	918.000000	918.000000	918.000000
-mean	4.205000	0.738863	79.943355
-std	0.556509	0.041072	11.840224
-min	2.910000	0.627000	43.000000
-25%	3.800000	0.710000	71.250000
-50%	4.170000	0.737000	80.000000
-75%	4.580000	0.766000	89.000000
-max	6.380000	0.851000	116.000000
+![image](https://user-images.githubusercontent.com/75323832/146481717-015a08e1-36c4-4670-938f-d79096ee7828.png)
+
 
 # Machine Learning Model
 
