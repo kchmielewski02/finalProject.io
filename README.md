@@ -46,6 +46,7 @@ Link to Baseball Reference:
 
 https://www.baseball-reference.com
 # Data Preperation
+To prep for our project, we cleaned that data by dropping variables we didn't need such as some advanced statistics like OPS+ and other irrlevant statistics like CS. All in all we ended up with 918 observations with 17 variables.
 
 # Exploratory Data Analysis
 
