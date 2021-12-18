@@ -114,6 +114,14 @@ A quick watch of the movie "Moneyball" shows the potential of data analytics in 
 
 Click the link below to run [our notebook](https://github.com/kchmielewski02/finalProject.io/blob/master/Final_ProjectCode.ipynb) directly in Google Collab. No coding is required to run this notebook, you just need to run every code cell in order or simply click Runtime -> Run all and wait for all cells to run. 
 
+
+<table align="left">
+  <td>
+    <a target="_blank" href="https://colab.research.google.com/github/kchmielewski/finalProject.io/blob/master/Final_ProjectCode.ipynb"><img src="https://www.tensorflow.org/images/colab_logo_32px.png" />Run in Google Colab</a>
+  </td>
+</table>
+<br> <br> <br>
+
 # Link to Video
 
 
