@@ -49,17 +49,45 @@ https://www.baseball-reference.com
 To prep for our project, we cleaned that data by dropping variables we didn't need such as some advanced statistics like OPS+ and other irrlevant statistics like CS. All in all we ended up with 918 observations with 17 variables.
 
 # Exploratory Data Analysis
+**Summary Statistics**
+Looking at the summary statistics, we can see that the average team ERA is 4.205. The average team OPS is .738. The average amount of wins is 79.94.  
+Some of the best teams in MLB history are included in our data set, with the ERA record is held by the 1988 Mets with a 2.91 team ERA. The best hitting team being the 2003 Boston Red Sox with a .851 OPS. And Lastly the 2001 Seattle Mariners with a 116 win season.
 
+<img width="319" alt="Screen Shot 2021-12-17 at 9 33 49 PM" src="https://user-images.githubusercontent.com/75323832/146626152-ee7fdbd8-5883-49c1-bcac-641f0cff6992.png">
+
+**Scatter Plot of Team ERA vs. Wins**
+Looking at the scatter plot, we can see there is a solid negative linear relationship. As the team ERA goes up wins go down. 
 ![image](https://user-images.githubusercontent.com/75323832/146481717-015a08e1-36c4-4670-938f-d79096ee7828.png)
+
+**Scatter Plot of Team OPS vs. Wins**
+Looking at the scatter plot, we can see there is a loose positive linear relationship. As the team OPS goes up wins go up, however the relationship is not as strong as team ERA. 
 ![image](https://user-images.githubusercontent.com/75323832/146481752-8575a2ea-c1bc-4bb2-9885-454b5db5afd1.png)
+
+**Comparison of Scatter Plots**
+Looking at the batting and pitching metrics next to eachother it is clear to see that team ERA is more strongly correlated with winnning than team OPS. 
 ![image](https://user-images.githubusercontent.com/75323832/146481769-24b971fb-f0d7-498e-9897-49376c84b0b7.png)
+
+**Heatamp of Correlation**
+Our heatmap confirms our earlier assumption that team ERA has a greater correlation to winning than team OPS, as the correlation coeffcient for team ERA is -0.57, which has the highest absoulte value of any of the other values.
 ![image](https://user-images.githubusercontent.com/75323832/146481785-bd9042c7-9a60-4a3d-86ab-019c46254ec8.png)
 
-
-
 # Machine Learning Model
+**Linear Regression Model**
+After running the linear regression model, we found a slope coefficient of -11.90192868, meaning that for every additional point of team ERA a team wins 11.9 less games. This regression has a Y-intercept of 130.3. 
+
+When evaluating our model, we used the the metrics of RMSE and R^2. Where the most intuitive metric is R^2, where 1 means a perfect linear fit, our model's R^2 0.36, which is a pretty good linear relationship for a single pitch metric.
+
+**Training Set Graph**
 ![image](https://user-images.githubusercontent.com/75323832/146481807-c2472479-b783-4176-be17-99b7b551759a.png)
+
+**Test Set Graph**
 ![image](https://user-images.githubusercontent.com/75323832/146481826-a71c75fe-570b-4939-80b4-62b6655332d1.png)
+
+**Predictions 
+With our model, we can predict that a team with a 2.5 ERA would win 100.55 games. Then we predict a team with a 5 ERA would win 70.79 games.
+
+**Residual Graph**
+In order to make valid inferences from our regression, the residuals of the regression should follow a normal distribution. Clearly our residual graph, shows a normal distribution of the error term. This means that our estimates are valid and true.
 ![image](https://user-images.githubusercontent.com/75323832/146481870-97096cb1-c8c0-4408-ba5d-117bf3a63ab3.png)
 
 
