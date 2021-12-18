@@ -59,21 +59,25 @@ Some of the best teams in MLB history are included in our data set, with the ERA
 **Scatter Plot of Team ERA vs. Wins**
 
 Looking at the scatter plot, we can see there is a solid negative linear relationship. As the team ERA goes up wins go down. 
+
 ![image](https://user-images.githubusercontent.com/75323832/146481717-015a08e1-36c4-4670-938f-d79096ee7828.png)
 
 **Scatter Plot of Team OPS vs. Wins**
 
 Looking at the scatter plot, we can see there is a loose positive linear relationship. As the team OPS goes up wins go up, however the relationship is not as strong as team ERA. 
+
 ![image](https://user-images.githubusercontent.com/75323832/146481752-8575a2ea-c1bc-4bb2-9885-454b5db5afd1.png)
 
 **Comparison of Scatter Plots**
 
 Looking at the batting and pitching metrics next to eachother it is clear to see that team ERA is more strongly correlated with winnning than team OPS. 
+
 ![image](https://user-images.githubusercontent.com/75323832/146481769-24b971fb-f0d7-498e-9897-49376c84b0b7.png)
 
 **Heatamp of Correlation**
 
 Our heatmap confirms our earlier assumption that team ERA has a greater correlation to winning than team OPS, as the correlation coeffcient for team ERA is -0.57, which has the highest absoulte value of any of the other values.
+
 ![image](https://user-images.githubusercontent.com/75323832/146481785-bd9042c7-9a60-4a3d-86ab-019c46254ec8.png)
 
 # Machine Learning Model
@@ -99,6 +103,7 @@ With our model, we can predict that a team with a 2.5 ERA would win 100.55 games
 **Residual Graph**
 
 In order to make valid inferences from our regression, the residuals of the regression should follow a normal distribution. Clearly our residual graph, shows a normal distribution of the error term. This means that our estimates are valid and true.
+
 ![image](https://user-images.githubusercontent.com/75323832/146481870-97096cb1-c8c0-4408-ba5d-117bf3a63ab3.png)
 
 
