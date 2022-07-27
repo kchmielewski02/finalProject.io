@@ -122,15 +122,5 @@ Click the link below to run [our notebook](https://github.com/kchmielewski02/fin
 </table>
 <br> <br> <br>
 
-# Link to Video
-**Tutuorial Video**
-
-https://youtu.be/n24_NCDQ1bw
-
-
-**Presentation Video**
-
-https://youtu.be/u0UmCOpS9fE
-
 
 
